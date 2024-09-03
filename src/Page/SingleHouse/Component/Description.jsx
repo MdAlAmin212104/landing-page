@@ -1,10 +1,14 @@
 import { CgGym } from "react-icons/cg";
 import { CiLocationOn } from "react-icons/ci";
 import { FaBaby } from "react-icons/fa";
-import { GiBed, GiFurnace, GiLift } from "react-icons/gi";
+import { GiBed, GiFurnace, GiGardeningShears, GiLift, GiSecurityGate } from "react-icons/gi";
 import { IoMdBatteryCharging } from "react-icons/io";
 import { LiaBedSolid } from "react-icons/lia";
-import { LuWarehouse } from "react-icons/lu";
+import { LuParkingSquare, LuWarehouse } from "react-icons/lu";
+import { MdOutlineContactPage } from "react-icons/md";
+import { PiParkFill } from "react-icons/pi";
+import { RiCustomerService2Line, RiWaterFlashFill } from "react-icons/ri";
+import { TbParkingCircle } from "react-icons/tb";
 import { useLoaderData } from "react-router-dom";
 
 const Description = () => {
@@ -192,16 +196,40 @@ const Description = () => {
       <div className="card bg-[#E5E7EB] my-8 Montserrat">
         <h2 className="ml-4 mt-4 text-2xl font-semibold">Amenities </h2>
         <div className="flex justify-between mx-8 my-4 font-medium">
-            <h1 className="flex gap-2"><IoMdBatteryCharging className="mt-1"/> Power Back Up</h1>
-            <h1 className="flex gap-2"><GiLift className="mt-1"/> Lift</h1>
-            <h1 className="flex gap-2"><LuWarehouse className="mt-1"/> Club House</h1>
-            <h1 className="flex gap-2"><CgGym className="mt-1"/> Gymnasium</h1>
-        </div>
-        <div className="flex justify-between mx-8 my-4 font-medium">
-            <h1 className="flex gap-2"><IoMdBatteryCharging className="mt-1"/> Power Back Up</h1>
-            <h1 className="flex gap-2"><GiLift className="mt-1"/> Lift</h1>
-            <h1 className="flex gap-2"><LuWarehouse className="mt-1"/> Club House</h1>
-            <h1 className="flex gap-2"><CgGym className="mt-1"/> Gymnasium</h1>
+            <div className="space-y-8">
+                <h1 className="flex gap-2"><IoMdBatteryCharging className="mt-1"/> Power Back Up</h1>
+                <h1 className="flex gap-2"><PiParkFill className="mt-1"/>Park</h1>
+                <h1 className="flex gap-2"><GiGardeningShears className="mt-1"/>Private Terrace/Garden</h1>
+                <h1 className="flex gap-2"><IoMdBatteryCharging className="mt-1"/> Power Back Up</h1>
+                <h1 className="flex gap-2"><PiParkFill className="mt-1"/>Park</h1>
+                <h1 className="flex gap-2"><GiGardeningShears className="mt-1"/>Private Terrace/Garden</h1>
+            </div>
+            <div className="space-y-8">
+                <h1 className="flex gap-2"><GiLift className="mt-1"/> Lift</h1>
+                <h1 className="flex gap-2"><TbParkingCircle className="mt-1"/>Reserved Parking</h1>
+                <h1 className="flex gap-2"><MdOutlineContactPage className="mt-1"/>Vaastu Compliant</h1>
+                <h1 className="flex gap-2"><GiLift className="mt-1"/> Lift</h1>
+                <h1 className="flex gap-2"><TbParkingCircle className="mt-1"/>Reserved Parking</h1>
+                <h1 className="flex gap-2"><MdOutlineContactPage className="mt-1"/>Vaastu Compliant</h1>
+            </div>
+
+            <div className="space-y-8">
+                <h1 className="flex gap-2"><LuWarehouse className="mt-1"/> Club House</h1>
+                <h1 className="flex gap-2"><GiSecurityGate className="mt-1"/>Security</h1>
+                <h1 className="flex gap-2"><RiCustomerService2Line className="mt-1"/>Service/Goods Lift</h1>
+                <h1 className="flex gap-2"><LuWarehouse className="mt-1"/> Club House</h1>
+                <h1 className="flex gap-2"><GiSecurityGate className="mt-1"/>Security</h1>
+                <h1 className="flex gap-2"><RiCustomerService2Line className="mt-1"/>Service/Goods Lift</h1>
+            </div>
+            <div className="space-y-8">
+                <h1 className="flex gap-2"><CgGym className="mt-1"/> Gymnasium</h1>
+                <h1 className="flex gap-2"><RiWaterFlashFill className="mt-1"/>Water Storage</h1>
+                <h1 className="flex gap-2"><LuParkingSquare className="mt-1"/>Visitor Parking</h1>
+                <h1 className="flex gap-2"><CgGym className="mt-1"/> Gymnasium</h1>
+                <h1 className="flex gap-2"><RiWaterFlashFill className="mt-1"/>Water Storage</h1>
+                <h1 className="flex gap-2"><LuParkingSquare className="mt-1"/>Visitor Parking</h1>
+            </div>
+           
         </div>
         
       </div>

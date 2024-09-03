@@ -32,7 +32,7 @@ const Team = () => {
                 slidesPerView: 3, // Display 3 slides
             },
         }}
-        className="mySwiper h-[420px]"
+        className="mySwiper h-[320px]"
       >
         <SwiperSlide>
             <img src="/image/team/1.jpg" alt="" />
