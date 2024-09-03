@@ -14,7 +14,7 @@ const About1 = () => {
             <hr className="w-12 bg-[#F06711] mt-2 border-none h-1" />
             <p className="ml-4">Our store</p>
           </div>
-            <h1 className="text-4xl font-bold">Efficient and Transparent Home Buying Solutions</h1>
+            <h1 className="text-4xl font-bold Montserrat">Efficient and Transparent Home Buying Solutions</h1>
             <p className="font-medium">In the symphony of bustling markets and serene landscapes, Heritage-Nest was born—a vision to</p>
           </div>
         </div>
