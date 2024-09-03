@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagramSquare, FaLinkedin, FaTwitter } from "react-icon
 const Footer = () => {
   return (
     <div className="bg-[#ECF5FF]">
-        <footer className="footer text-base-content p-10 Montserrat">
+        <footer className="footer text-base-content p-10 Montserrat container mx-auto">
       <aside>
         <img src="/logo.png" alt="logo"  className="w-[80px]"/>
         <p>
@@ -57,7 +57,7 @@ const Footer = () => {
       </nav>
         </footer>
         <hr className="md:mx-24 mx-8 bg-black"/>
-        <footer className="footer text-base-content p-10 Montserrat">
+        <footer className="footer text-base-content p-10 Montserrat container mx-auto">
         <aside className="grid-flow-col items-center">
             <p>© {new Date().getFullYear()} Heritage- Nest . All rights reserved.</p>
         </aside>

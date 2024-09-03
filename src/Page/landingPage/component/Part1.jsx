@@ -4,19 +4,19 @@ const Part1 = () => {
   return (
     <div className="hero mb-24 Montserrat">
       <div className="hero-content items-start flex-col lg:flex-row  h-[504px]">
-        <div className="md:w-1/2 relative">
+        <div className="md:w-1/2 md:relative">
           <img
             src="/image/house1.jpeg"
             className="w-[460px] h-[400px] rounded-2xl"
           />
           <img
             src="/image/house2.jpeg"
-            className="w-[450px] h-[240px] absolute -bottom-24 right-10 rounded-2xl"
+            className="w-[450px] h-[240px] md:absolute -bottom-24 right-10 rounded-2xl"
           />
           <img
             src="/image/mxPlayer.png"
             alt=""
-            className="w-[72px] absolute right-28 top-56"
+            className="w-[72px] md:absolute right-28 top-56"
           />
         </div>
         <div className="md:w-1/2 mt-0">

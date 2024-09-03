@@ -23,19 +23,19 @@ const Part2 = () => {
             <CiSearch className="text-[#0059B1]" /> Find Property
           </button>
         </div>
-        <div className="md:w-1/2 relative">
+        <div className="md:w-1/2 md:relative">
           <img
             src="/image/house2.jpeg"
-            className="w-[450px] h-[240px] rounded-2xl ml-40 z-40 relative"
+            className="w-[450px] h-[240px] rounded-2xl md:ml-40 z-40 md:relative"
           />
           <img
             src="/image/house1.jpeg"
-            className="w-[460px] h-[400px] rounded-2xl ml-10 absolute top-28 z-0"
+            className="w-[460px] h-[400px] rounded-2xl md:ml-10 md:absolute top-28 z-0"
           />
           <img
             src="/image/mxPlayer.png"
             alt=""
-            className="w-[72px] z-50 relative left-32 -top-44"
+            className="w-[72px] z-50 md:relative left-32 -top-44"
           />
         </div>
       </div>

@@ -8,7 +8,7 @@ const Services = () => {
         Other Services
       </h1>
       <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-4 mb-16">
-        <div className="flex justify-center items-start bg-[#ECF5FF] h-[200px] w-[380px]">
+        <div className="flex justify-center items-start bg-[#ECF5FF] h-[200px] max-w-[380px]">
         <div className="w-12 h-12 bg-[#EE6611] p-4 mt-4 ml-4">
         <BsHouse  className="text-white"/>
         </div>
@@ -17,7 +17,7 @@ const Services = () => {
             <p className="m-4 font-medium">Effortlessly find your dream property with advanced search filters.</p>
         </div>
         </div>
-        <div className="flex justify-center items-start bg-[#ECF5FF] h-[200px] w-[380px]">
+        <div className="flex justify-center items-start bg-[#ECF5FF] h-[200px] max-w-[380px]">
         <div className="w-12 h-12 bg-[#EE6611] p-4 mt-4 ml-4">
         <BsHouse  className="text-white"/>
         </div>
