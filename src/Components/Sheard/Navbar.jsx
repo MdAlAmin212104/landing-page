@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <div className="navbar bg-[#ECF5FF] Montserrat text-black">
@@ -30,9 +32,9 @@ const Navbar = () => {
             </ul>
           </div>
           <ul className="menu menu-horizontal px-1 space-x-4 hidden lg:flex my-auto text-[18px]">
-            <li><a>Buy</a></li>
-            <li><a>Sell</a></li>
-            <li><a>Services</a></li>
+            <li><Link to='/'>Buy</Link></li>
+            <li><Link to='/property'>Sell</Link></li>
+            <li><Link to='/about'>Services</Link></li>
             </ul>
         </div>
         <div className="navbar-center">

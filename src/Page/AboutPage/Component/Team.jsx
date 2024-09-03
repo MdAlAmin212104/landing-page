@@ -15,10 +15,24 @@ const Team = () => {
       </h1>
       <Swiper
         modules={[Navigation]}
-        slidesPerView={3}
+        slidesPerGroup={1}
         spaceBetween={30}
         navigation={true}
-        className="mySwiper"
+        breakpoints={{
+            // When the screen width is >= 640px (small screens)
+            640: {
+                slidesPerView: 1, // Display 1 slide
+            },
+            // When the screen width is >= 768px (medium screens)
+            768: {
+                slidesPerView: 2, // Display 2 slides
+            },
+            // When the screen width is >= 1024px (large screens)
+            1024: {
+                slidesPerView: 3, // Display 3 slides
+            },
+        }}
+        className="mySwiper h-[420px]"
       >
         <SwiperSlide>
             <img src="/image/team/1.jpg" alt="" />
