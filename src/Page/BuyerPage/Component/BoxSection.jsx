@@ -5,7 +5,7 @@ import { IoLocationOutline } from "react-icons/io5";
 
 const BoxSection = () => {
   return (
-    <div className="md:w-[990px] bg-white container mx-auto -mt-56">
+    <div className="md:w-[990px] bg-white container mx-auto -mt-56 shadow">
       <div role="tablist" className="tabs tabs-bordered p-4">
         <input
           type="radio"
@@ -15,7 +15,7 @@ const BoxSection = () => {
           aria-label="Buy"
           defaultChecked
         />
-        <div role="tabpanel" className="tab-content my-6">
+        <div role="tabpanel" className="tab-content mt-6">
           <label className="input input-bordered flex items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +31,7 @@ const BoxSection = () => {
             </svg>
             <input type="text" className="grow" placeholder="Search" />
           </label>
-          <div className="flex gap-4">
+          <div className="md:md:flex gap-4">
           <label className="form-control w-full max-w-xs mt-6">
             <div className="label">
               <span className="label-text flex gap-2 font-semibold">
@@ -39,7 +39,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -55,7 +55,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -71,7 +71,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -92,7 +92,7 @@ const BoxSection = () => {
           className="tab pl-0"
           aria-label="Rent"
         />
-        <div role="tabpanel" className="tab-content my-6">
+        <div role="tabpanel" className="tab-content mt-6">
           <label className="input input-bordered flex items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ const BoxSection = () => {
             </svg>
             <input type="text" className="grow" placeholder="Search" />
           </label>
-          <div className="flex gap-4">
+          <div className="md:flex gap-4">
           <label className="form-control w-full max-w-xs mt-6">
             <div className="label">
               <span className="label-text flex gap-2 font-semibold">
@@ -116,7 +116,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -132,7 +132,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -148,7 +148,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -169,7 +169,7 @@ const BoxSection = () => {
           className="tab pl-0"
           aria-label="PG"
         />
-        <div role="tabpanel" className="tab-content my-6">
+        <div role="tabpanel" className="tab-content mt-6">
           <label className="input input-bordered flex items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -185,7 +185,7 @@ const BoxSection = () => {
             </svg>
             <input type="text" className="grow" placeholder="Search" />
           </label>
-          <div className="flex gap-4">
+          <div className="md:flex gap-4">
           <label className="form-control w-full max-w-xs mt-6">
             <div className="label">
               <span className="label-text flex gap-2 font-semibold">
@@ -193,7 +193,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -209,7 +209,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -225,7 +225,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -245,7 +245,7 @@ const BoxSection = () => {
           className="tab pl-0"
           aria-label="Plot"
         />
-        <div role="tabpanel" className="tab-content my-6">
+        <div role="tabpanel" className="tab-content mt-6">
           <label className="input input-bordered flex items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -261,7 +261,7 @@ const BoxSection = () => {
             </svg>
             <input type="text" className="grow" placeholder="Search" />
           </label>
-          <div className="flex gap-4">
+          <div className="md:flex gap-4">
           <label className="form-control w-full max-w-xs mt-6">
             <div className="label">
               <span className="label-text flex gap-2 font-semibold">
@@ -269,7 +269,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -285,7 +285,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -301,7 +301,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -321,7 +321,7 @@ const BoxSection = () => {
           className="tab pl-0"
           aria-label="Commercial"
         />
-        <div role="tabpanel" className="tab-content my-6">
+        <div role="tabpanel" className="tab-content mt-6">
           <label className="input input-bordered flex items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -337,7 +337,7 @@ const BoxSection = () => {
             </svg>
             <input type="text" className="grow" placeholder="Search" />
           </label>
-          <div className="flex gap-4">
+          <div className="md:flex gap-4">
           <label className="form-control w-full max-w-xs mt-6">
             <div className="label">
               <span className="label-text flex gap-2 font-semibold">
@@ -345,7 +345,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -361,7 +361,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>
@@ -377,7 +377,7 @@ const BoxSection = () => {
               </span>
             </div>
             <select className="select select-bordered bg-[#ECF5FF]">
-              <option disabled selected>
+              <option  defaultValue="">
               </option>
               <option>Star Wars</option>
               <option>Harry Potter</option>

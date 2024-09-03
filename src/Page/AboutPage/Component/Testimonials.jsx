@@ -39,7 +39,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div className="card bg-[#ECF5FF] text-black mx-4 Poppins w-[590px]">
               <div className="card-body items-center text-center">
-                <h1 className="text-3xl text-[#FEC84B] flex gap-4">
+                <h1 className="text-3xl text-[#FEC84B] md:flex gap-4">
                   <IoStar /> <IoStar /> <IoStar /> <IoStar />
                   <IoStar className="text-[#F4E6C5]" />
                 </h1>
@@ -63,7 +63,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div className="card bg-[#ECF5FF] text-black mx-4 Poppins w-[590px]">
               <div className="card-body items-center text-center">
-                <h1 className="text-3xl text-[#FEC84B] flex gap-4">
+                <h1 className="text-3xl text-[#FEC84B] md:flex gap-4">
                   <IoStar /> <IoStar /> <IoStar /> <IoStar />
                   <IoStar className="text-[#F4E6C5]" />
                 </h1>
@@ -87,7 +87,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div className="card bg-[#ECF5FF] text-black mx-4 Poppins w-[590px]">
               <div className="card-body items-center text-center">
-                <h1 className="text-3xl text-[#FEC84B] flex gap-4">
+                <h1 className="text-3xl text-[#FEC84B] md:flex gap-4">
                   <IoStar /> <IoStar /> <IoStar /> <IoStar />
                   <IoStar className="text-[#F4E6C5]" />
                 </h1>
@@ -111,7 +111,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div className="card bg-[#ECF5FF] text-black mx-4 Poppins md:w-[590px]">
               <div className="card-body items-center text-center">
-                <h1 className="text-3xl text-[#FEC84B] flex gap-4">
+                <h1 className="text-3xl text-[#FEC84B] md:flex gap-4">
                   <IoStar /> <IoStar /> <IoStar /> <IoStar />
                   <IoStar className="text-[#F4E6C5]" />
                 </h1>
@@ -135,7 +135,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div className="card bg-[#ECF5FF] text-black mx-4 Poppins w-[590px]">
               <div className="card-body items-center text-center">
-                <h1 className="text-3xl text-[#FEC84B] flex gap-4">
+                <h1 className="text-3xl text-[#FEC84B] md:flex gap-4">
                   <IoStar /> <IoStar /> <IoStar /> <IoStar />
                   <IoStar className="text-[#F4E6C5]" />
                 </h1>
@@ -159,7 +159,7 @@ const Testimonials = () => {
           <SwiperSlide>
             <div className="card bg-[#ECF5FF] text-black mx-4 Poppins w-[590px]">
               <div className="card-body items-center text-center">
-                <h1 className="text-3xl text-[#FEC84B] flex gap-4">
+                <h1 className="text-3xl text-[#FEC84B] md:flex gap-4">
                   <IoStar /> <IoStar /> <IoStar /> <IoStar />
                   <IoStar className="text-[#F4E6C5]" />
                 </h1>
