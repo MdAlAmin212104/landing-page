@@ -44,10 +44,10 @@ const SearchResult = () => {
                 </button>
               </div>
               <div className="flex items-center pt-4 space-x-1">
-                <p className="px-3 text-sm dark:text-gray-600">Property details</p>
+                <p className=" text-sm dark:text-gray-600">Property details</p>
                 <div className="flex-1 h-px sm:w-16 bg-gray-300"></div>
               </div>
-              <div className="mt-2 flex justify-between">
+              <div className="mt-2 md:flex justify-between md:space-y-0 space-y-6">
                 <div className="flex gap-2">
                     <PiFlowerThin className="w-10 h-10 bg-[#EE6611] text-white"/>
                     <div className="-mt-1">
@@ -76,7 +76,7 @@ const SearchResult = () => {
           </div>
         </div>
       ))}
-      
+      <hr className="md:w-3/4"/>
     </div>
   );
 };
