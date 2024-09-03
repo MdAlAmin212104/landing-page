@@ -6,8 +6,11 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 
 const NewListed = () => {
-    const [house] = useData()
+    const [house, islodding, isError] = useData()
     const newListed = house.slice(3, );
+
+    if (islodding) return <p>Loading...</p>;
+    if (isError) return <p>{isError}</p>;
     return (
         <div className="container mx-auto mt-8 Poppins">
             <div className="flex justify-between">
@@ -38,7 +41,7 @@ const NewListed = () => {
                 className="mySwiper"
             >
                 {newListed.map((item) => (
-                    <SwiperSlide key={item.image}>
+                    <SwiperSlide key={item._id}>
                         <div className="card-compact bg-[#F9FAFB]">
                             <figure className="h-[200px]">
                                 <img

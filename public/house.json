@@ -14,7 +14,7 @@
     "facing": "North",
     "additionalRooms": 1,
     "AgeOfConstruction": "5 years",
-    "Status": "Available"
+    "Status":"Available"
   },
   {
     "title": "Modern Studio in the Heart of the City",
@@ -48,7 +48,7 @@
     "facing": "South",
     "additionalRooms": 2,
     "AgeOfConstruction": "10 years",
-    "Status": "Available"
+    "Status":"Available"
   },
   {
     "title": "Cozy 2-Bedroom Flat Near Park",
@@ -65,7 +65,7 @@
     "facing": "West",
     "additionalRooms": 0,
     "AgeOfConstruction": "8 years",
-    "Status": "Available"
+    "Status":"Available"
   },
   {
     "title": "Spacious 3-Bedroom Apartment",
@@ -82,7 +82,7 @@
     "facing": "North",
     "additionalRooms": 1,
     "AgeOfConstruction": "5 years",
-    "Status": "Available"
+    "Status":"Available"
   },
   {
     "title": "Modern Studio in the Heart of the City",
@@ -116,7 +116,7 @@
     "facing": "South",
     "additionalRooms": 2,
     "AgeOfConstruction": "10 years",
-    "Status": "Available"
+    "Status":"Available"
   },
   {
     "title": "Cozy 2-Bedroom Flat Near Park",
@@ -133,7 +133,7 @@
     "facing": "West",
     "additionalRooms": 0,
     "AgeOfConstruction": "8 years",
-    "Status": "Available"
+    "Status":"Available"
   },
   {
     "title": "Luxury Penthouse with Rooftop Pool",
@@ -150,7 +150,7 @@
     "facing": "North-East",
     "additionalRooms": 3,
     "AgeOfConstruction": "3 years",
-    "Status": "Available"
+    "Status":"Available"
   },
   {
     "title": "Charming 3-Bedroom Cottage with Garden",
@@ -167,7 +167,7 @@
     "facing": "South-West",
     "additionalRooms": 1,
     "AgeOfConstruction": "12 years",
-    "Status": "Available"
+    "Status":"Available"
   },
   {
     "title": "Contemporary 2-Bedroom Apartment with City View",
@@ -184,7 +184,7 @@
     "facing": "North-West",
     "additionalRooms": 0,
     "AgeOfConstruction": "6 years",
-    "Status": "Available"
+    "Status":"Available"
   },
   {
     "title": "Elegant 4-Bedroom Family Home",
@@ -201,6 +201,6 @@
     "facing": "East",
     "additionalRooms": 1,
     "AgeOfConstruction": "7 years",
-    "Status": "Available"
+    "Status":"Available"
   }
 ]
