@@ -15,7 +15,7 @@ const About2 = () => {
         </div>
         <div className="md:w-3/4">
         <img
-          src="image/about-image.avif"
+          src="image/About2.jpg"
           className="w-full h-[455px]"
         />
         </div>
