@@ -5,7 +5,7 @@ const Journey = () => {
            <div className="md:w-1/3">
             <img
             src="/image/about-house.avif"
-            className="w-[390px] rounded-lg shadow-2xl ml-10"
+            className="w-[390px] rounded-lg shadow-2xl md:ml-10"
           />
           </div>
           <div className="md:w-2/3">
