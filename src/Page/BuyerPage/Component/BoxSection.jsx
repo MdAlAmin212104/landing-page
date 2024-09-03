@@ -2,6 +2,7 @@ import { AiFillDollarCircle } from "react-icons/ai";
 import { CiSearch } from "react-icons/ci";
 import { FaHouseUser } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const BoxSection = () => {
   return (
@@ -82,7 +83,8 @@ const BoxSection = () => {
           </label>
 
           </div>
-          <button className="btn bg-[#0059B1] text-white border-none w-full mt-4 font-semibold mb-8"> <CiSearch className="text-2xl"/> Find Property</button>
+          <Link to='/search'>
+          <button className="btn bg-[#0059B1] text-white border-none w-full mt-4 font-semibold mb-8"> <CiSearch className="text-2xl"/> Find Property</button></Link>
         </div>
 
         <input

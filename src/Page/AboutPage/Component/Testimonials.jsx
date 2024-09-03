@@ -25,9 +25,13 @@ const Testimonials = () => {
             enabled: true,
           }}
           breakpoints={{
-            769: {
-              slidesPerView: 2,
-              slidesPerGroup: 2,
+            // When the screen width is >= 640px (small screens)
+            640: {
+              slidesPerView: 1, // Display 1 slide
+            },
+            // When the screen width is >= 768px (medium screens)
+            768: {
+              slidesPerView: 2, // Display 2 slides
             },
           }}
           pagination={{
@@ -37,13 +41,13 @@ const Testimonials = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="card bg-[#ECF5FF] text-black mx-4 Poppins w-[590px]">
+            <div className="card bg-[#ECF5FF] text-black md:mx-4 Poppins max-w-[590px]">
               <div className="card-body items-center text-center">
-                <h1 className="text-3xl text-[#FEC84B] md:flex gap-4">
+                <h1 className="md:text-3xl text-[#FEC84B] flex gap-4 my-4">
                   <IoStar /> <IoStar /> <IoStar /> <IoStar />
                   <IoStar className="text-[#F4E6C5]" />
                 </h1>
-                <p className="px-16">
+                <p className="">
                   &rdquo;The level of security provided by CypherPlay is
                   unmatched. I feel confident using my card for both everyday
                   purchases and travel. It`s the peace of mind I was looking
@@ -56,18 +60,17 @@ const Testimonials = () => {
                 </div>
                 <h1 className="Montserrat font-bold text-xl">Tony Stark</h1>
                 <p>Marketing manager, XYZ</p>
-                
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="card bg-[#ECF5FF] text-black mx-4 Poppins w-[590px]">
+            <div className="card bg-[#ECF5FF] text-black md:mx-4 Poppins lg:w-[590px]">
               <div className="card-body items-center text-center">
-                <h1 className="text-3xl text-[#FEC84B] md:flex gap-4">
+                <h1 className="md:text-3xl text-[#FEC84B] flex gap-4 my-4">
                   <IoStar /> <IoStar /> <IoStar /> <IoStar />
                   <IoStar className="text-[#F4E6C5]" />
                 </h1>
-                <p className="px-16">
+                <p className="">
                   &rdquo;The level of security provided by CypherPlay is
                   unmatched. I feel confident using my card for both everyday
                   purchases and travel. It`s the peace of mind I was looking
@@ -80,18 +83,17 @@ const Testimonials = () => {
                 </div>
                 <h1 className="Montserrat font-bold text-xl">Tony Stark</h1>
                 <p>Marketing manager, XYZ</p>
-                
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="card bg-[#ECF5FF] text-black mx-4 Poppins w-[590px]">
+            <div className="card bg-[#ECF5FF] text-black md:mx-4 Poppins max-w-[590px]">
               <div className="card-body items-center text-center">
-                <h1 className="text-3xl text-[#FEC84B] md:flex gap-4">
+                <h1 className="md:text-3xl text-[#FEC84B] flex gap-4 my-4">
                   <IoStar /> <IoStar /> <IoStar /> <IoStar />
                   <IoStar className="text-[#F4E6C5]" />
                 </h1>
-                <p className="px-16">
+                <p className="">
                   &rdquo;The level of security provided by CypherPlay is
                   unmatched. I feel confident using my card for both everyday
                   purchases and travel. It`s the peace of mind I was looking
@@ -104,18 +106,17 @@ const Testimonials = () => {
                 </div>
                 <h1 className="Montserrat font-bold text-xl">Tony Stark</h1>
                 <p>Marketing manager, XYZ</p>
-                
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="card bg-[#ECF5FF] text-black mx-4 Poppins md:w-[590px]">
+            <div className="card bg-[#ECF5FF] text-black md:mx-4 Poppins lg:w-[590px]">
               <div className="card-body items-center text-center">
-                <h1 className="text-3xl text-[#FEC84B] md:flex gap-4">
+                <h1 className="md:text-3xl text-[#FEC84B] flex gap-4 my-4">
                   <IoStar /> <IoStar /> <IoStar /> <IoStar />
                   <IoStar className="text-[#F4E6C5]" />
                 </h1>
-                <p className="px-16">
+                <p className="">
                   &rdquo;The level of security provided by CypherPlay is
                   unmatched. I feel confident using my card for both everyday
                   purchases and travel. It`s the peace of mind I was looking
@@ -128,18 +129,17 @@ const Testimonials = () => {
                 </div>
                 <h1 className="Montserrat font-bold text-xl">Tony Stark</h1>
                 <p>Marketing manager, XYZ</p>
-                
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="card bg-[#ECF5FF] text-black mx-4 Poppins w-[590px]">
+            <div className="card bg-[#ECF5FF] text-black md:mx-4 Poppins max-w-[590px]">
               <div className="card-body items-center text-center">
-                <h1 className="text-3xl text-[#FEC84B] md:flex gap-4">
+                <h1 className="md:text-3xl text-[#FEC84B] flex gap-4 my-4">
                   <IoStar /> <IoStar /> <IoStar /> <IoStar />
                   <IoStar className="text-[#F4E6C5]" />
                 </h1>
-                <p className="px-16">
+                <p className="">
                   &rdquo;The level of security provided by CypherPlay is
                   unmatched. I feel confident using my card for both everyday
                   purchases and travel. It`s the peace of mind I was looking
@@ -152,18 +152,17 @@ const Testimonials = () => {
                 </div>
                 <h1 className="Montserrat font-bold text-xl">Tony Stark</h1>
                 <p>Marketing manager, XYZ</p>
-                
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="card bg-[#ECF5FF] text-black mx-4 Poppins w-[590px]">
+            <div className="card bg-[#ECF5FF] text-black md:mx-4 Poppins lg:w-[590px]">
               <div className="card-body items-center text-center">
-                <h1 className="text-3xl text-[#FEC84B] md:flex gap-4">
+                <h1 className="md:text-3xl text-[#FEC84B] flex gap-4 my-4">
                   <IoStar /> <IoStar /> <IoStar /> <IoStar />
                   <IoStar className="text-[#F4E6C5]" />
                 </h1>
-                <p className="px-16">
+                <p className="">
                   &rdquo;The level of security provided by CypherPlay is
                   unmatched. I feel confident using my card for both everyday
                   purchases and travel. It`s the peace of mind I was looking
@@ -176,11 +175,10 @@ const Testimonials = () => {
                 </div>
                 <h1 className="Montserrat font-bold text-xl">Tony Stark</h1>
                 <p>Marketing manager, XYZ</p>
-                
               </div>
             </div>
           </SwiperSlide>
-         
+          
         </Swiper>
       </div>
     </div>
