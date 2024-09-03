@@ -84,7 +84,7 @@ const Description = () => {
           </div>
           <div className="card bg-[#E5E7EB] px-6">
             <h1 className="Montserrat text-2xl font-semibold p-4">Overview</h1>
-            <div className="font-bold flex gap-6 justify-evenly m-2 bg-white rounded p-2">
+            <div className="font-bold md:flex gap-6 md:space-x-20 m-2 bg-white rounded p-2">
               <h1 className="flex text-[16px] gap-2">
                 <LiaBedSolid className="mt-1" />
                 {bedRoom} Beds
@@ -101,28 +101,22 @@ const Description = () => {
                 <GiFurnace className="mt-1" /> Fully Furnished
               </h1>
             </div>
-            <div className="my-4 flex justify-between">
+            <div className="my-4 md:flex md:justify-between">
+              
+              <div className="space-y-6">
               <div>
                 <h1 className="text-[#5C5C5C]">Carpet Area</h1>
                 <p>{area}</p>
               </div>
               <div>
-                <h1 className="text-[#5C5C5C]">Floor</h1>
-                <p>Second (Out of 6th floor)</p>
-              </div>
-              <div>
-                <h1 className="text-[#5C5C5C]">Transaction Type</h1>
-                <p>Ready to move</p>
-              </div>
-              <div>
-                <h1 className="text-[#5C5C5C]">Lift</h1>
-                <p>{lift ? "Yes" : "No"}</p>
-              </div>
-            </div>
-            <div className="flex justify-between mb-8">
-              <div>
                 <h1 className="text-[#5C5C5C]">Facing</h1>
                 <p>{facing}</p>
+              </div>
+              </div>
+              <div className="space-y-6">
+              <div>
+                <h1 className="text-[#5C5C5C]">Floor</h1>
+                <p>Second (Out of 6th floor)</p>
               </div>
               <div>
                 <h1 className="text-[#5C5C5C]">Additional Rooms</h1>
@@ -130,14 +124,29 @@ const Description = () => {
                   {additionalRooms} servant room & {additionalRooms} gust room
                 </p>
               </div>
+
+              </div>
+              <div className="space-y-6">
+              <div>
+                <h1 className="text-[#5C5C5C]">Transaction Type</h1>
+                <p>Ready to move</p>
+              </div>
               <div>
                 <h1 className="text-[#5C5C5C]">Age of construction</h1>
                 <p>{AgeOfConstruction}</p>
+              </div>
+              </div>
+              <div className="space-y-6">
+              <div>
+                <h1 className="text-[#5C5C5C]">Lift</h1>
+                <p>{lift ? "Yes" : "No"}</p>
               </div>
               <div>
                 <h1 className="text-[#5C5C5C]">Status</h1>
                 <p>{Status}</p>
               </div>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -195,7 +204,7 @@ const Description = () => {
       </div>
       <div className="card bg-[#E5E7EB] my-8 Montserrat">
         <h2 className="ml-4 mt-4 text-2xl font-semibold">Amenities </h2>
-        <div className="flex justify-between mx-8 my-4 font-medium">
+        <div className="md:flex justify-between mx-8 my-4 font-medium">
             <div className="space-y-8">
                 <h1 className="flex gap-2"><IoMdBatteryCharging className="mt-1"/> Power Back Up</h1>
                 <h1 className="flex gap-2"><PiParkFill className="mt-1"/>Park</h1>

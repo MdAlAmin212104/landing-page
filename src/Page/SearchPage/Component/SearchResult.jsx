@@ -12,7 +12,7 @@ const SearchResult = () => {
   if (isError) return <p>{isError}</p>;
   return (
     <div className="container mx-auto my-6">
-      <div className="font-medium flex gap-6 mb-4">
+      <div className="font-medium flex inline-block gap-6 mb-4">
         <button className="bg-[#0059B1] p-2 text-white">
           properties ({house.length})
         </button>

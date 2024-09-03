@@ -12,7 +12,7 @@ import { IoStar } from "react-icons/io5";
 const Testimonials = () => {
   return (
     <div className="container mx-auto">
-      <h1 className="Montserrat text-5xl font-bold text-center my-6">
+      <h1 className="Montserrat md:text-5xl text-3xl font-bold text-center my-6">
         Testimonials
       </h1>
       <div>
