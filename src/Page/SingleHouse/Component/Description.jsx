@@ -43,7 +43,7 @@ const Description = () => {
             {location}
           </p>
           <hr className="my-4" />
-          <div className="card h-[400px]">
+          <div className="card md:h-[400px]">
             <figure>
               <img
                 src={image}
