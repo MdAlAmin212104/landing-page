@@ -1,7 +1,8 @@
+import Services1 from "../../Components/Sheard/Services1";
 import Banner from "./component/banner";
 import Part1 from "./component/Part1";
 import Part2 from "./component/Part2";
-import Services from "./component/Services";
+import Part3 from "./component/Part3";
 
 const LandingPage = () => {
     return (
@@ -9,8 +10,8 @@ const LandingPage = () => {
             <Banner/>
             <Part1/>
             <Part2/>
-            <Part1/>
-            <Services/>
+            <Part3/>
+            <Services1/>
         </div>
     );
 };

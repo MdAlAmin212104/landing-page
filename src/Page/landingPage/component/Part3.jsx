@@ -1,25 +1,25 @@
 import { CiSearch } from "react-icons/ci";
 
-const Part1 = () => {
-  return (
-    <div className="hero mb-24 mt-[400px] md:mt-0 Montserrat">
-      <div className="hero-content items-start flex-col lg:flex-row  h-[504px] relative">
-        <div className="md:w-1/2 lg:relative">
+const Part3 = () => {
+    return (
+        <div className="hero mb-24 Montserrat">
+      <div className="hero-content items-start flex-col lg:flex-row  h-[504px]">
+        <div className="md:w-1/2 relative top-[400px] md:top-0">
           <img
             src="/image/house1.jpeg"
             className="w-[460px] h-[400px] rounded-2xl"
           />
           <img
             src="/image/house2.jpeg"
-            className="w-[450px] h-[240px] lg:absolute -bottom-24 right-10 rounded-2xl mt-6 md:mt-0"
+            className="w-[450px] h-[240px] md:absolute -bottom-24 right-10 rounded-2xl mt-8 md:mt-0"
           />
           <img
             src="/image/mxPlayer.png"
             alt=""
-            className="w-[72px] lg:absolute right-28 top-56 hidden md:flex"
+            className="w-[72px] md:absolute right-28 top-56"
           />
         </div>
-        <div className="md:w-1/2 md:mt-0 mt-72 relative -bottom-36">
+        <div className="md:w-1/2 mt-0 relative top-[380px] md:top-0">
           <div className="flex items-center text-[#F06711] font-semibold text-[22px] popping">
             <hr className="w-12 bg-[#F06711] mt-2 border-none h-1" />
             <p className="ml-4">Property buying</p>
@@ -38,7 +38,7 @@ const Part1 = () => {
         </div>
       </div>
     </div>
-  );
+    );
 };
 
-export default Part1;
+export default Part3;

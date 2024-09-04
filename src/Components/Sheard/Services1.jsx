@@ -1,9 +1,8 @@
 import { BsHouse } from "react-icons/bs";
 
-
-const Services = () => {
-  return (
-    <div className="container mx-auto">
+const Services1 = () => {
+    return (
+        <div className="container mx-auto relative top-[550px] md:top-0">
       <h1 className="md:text-5xl text-2xl font-bold text-center mb-12">
         Other Services
       </h1>
@@ -37,7 +36,7 @@ const Services = () => {
         </div>
       </div>
     </div>
-  );
+    );
 };
 
-export default Services;
+export default Services1;
